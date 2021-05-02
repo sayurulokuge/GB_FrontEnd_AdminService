@@ -15,7 +15,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="Views/register.css">
+    <link rel="stylesheet" href="Views/update.css">
     
     <!-- js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -33,62 +33,46 @@
 	            <div class="front row">
 	            
 	            	<!-- left section of signup page -->
-	                <div class="col-6 signupLeft">    
+	                <div class="col-6 updateLeft">    
 	                    <form class="text-center p-3" action="#" method="POST">
 	
-	                        <h1 class="h1 mb-0 d-flex flex-row">Sign up</h1>
-	                        <small class="mt-0 text-muted mb-4">... Join the Community</small>
-	
-	                        <div class="form-row mb-4 mt-3">
-	                        	<div class="col">
-	                                <!-- Account type -->
-	                                <label for="accType"><b>Choose an Account Type:</b></label>
-	                                <select name="accType" id="accType" class="form-control">
-	                                	<option hidden=TRUE>Account Type</option>
-	                                	<option>Innovator</option>
-	                                	<option>Buyer</option>
-	                                </select>
-	                            </div>
-	                        </div>   
+	                        <h1 class="h1 mb-0 d-flex flex-row">Update</h1>
+	                        <small class="mt-0 text-muted mb-4">... Change is Welcome</small><br><br>	                        
 	                         
 	                        <div class="form-row mb-4 mt-3">     
 	                            <div class="col">
 	                                <!-- First name -->
-	                                <input type="text" id="signFname" name="signFname" class="form-control" placeholder="First name">
+	                                <input type="text" id="editFname" name="editFname" class="form-control" placeholder="First name">
 	                            </div>
 	                            <div class="col">
 	                                <!-- Last name -->
-	                                <input type="text" id="signLname" name="signLname" class="form-control" placeholder="Last name">
+	                                <input type="text" id="editLname" name="editLname" class="form-control" placeholder="Last name">
 	                            </div>
 	                        </div>
 	
 	                        <!-- E-mail -->
-	                        <input type="email" id="signEmail" name="signEmail" class="form-control mb-4" placeholder="E-mail">
+	                        <input type="email" id="editEmail" name="editEmail" class="form-control mb-4" placeholder="E-mail">
 	
 	                        <!-- Password -->
-	                        <input type="password" id="signPW" name="signPW" class="form-control" placeholder="Password">
+	                        <input type="password" id="editPW" name="editPW" class="form-control" placeholder="New Password">
 	                        <small  class="form-text text-muted mb-3">At least 8 characters</small>
 	
 	                        <!-- Confirm Password -->
-	                        <input type="password" id="signConfermPw" class="form-control mb-3" placeholder="Confirm Password" name="signConfermPw">
+	                        <input type="password" id="editConfermPw" class="form-control mb-3" placeholder="Confirm Password" name="editConfermPw">
 	                            
-	                        <button class="btn my-4 btn-block sign_UpIn_btn" type="submit">Sign Up</button>
+	                        <button class="btn my-4 btn-block update_btn" type="submit">Update</button>
 	
 	                    </form>
 	                </div>
 	                
 	                <!-- right section of signup page -->
-	                <div class="col-6 signupRight d-flex flex-column justify-content-center align-items-center">
-	                    <div class=" signlogomb-3 mb-3">
+	                <div class="col-6 updateRight d-flex flex-column justify-content-center align-items-center">
+	                    <div class=" updatelogomb-3 mb-3">
 	                        <img src="Images/logo.png" class="signlogo ">
 	                    </div>
 	
-	                    <h1 class="text-center"><b>Welcome To</b></h1>
-	                    <h1 class="text-center" style="font-weight: bold; font-style: italic; font-family: serif">Gadget Badget</h1>
-	
-	                    <div class="to_flip d-flex justify-content-center align-items-center" id="toflipbtn">
-	                    	<a href="#" style="color: white;"> SIGN IN</a>                 
-	                   	</div>
+	                    <h1 class="text-center"><b>Change is what</b></h1>
+	                    <h1 class="text-center" style="font-weight: bold; font-style: italic; font-family: serif">The World Needs</h1>	
 	                </div>
 	                
 	            </div>
