@@ -60,7 +60,8 @@
 	                        <!-- Confirm Password -->
 	                        <input type="password" id="editConfermPw" class="form-control mb-3" placeholder="Confirm Password" name="editConfermPw">
 	                            
-	                        <button class="btn my-4 btn-block update_btn" type="submit">Update</button>
+	                        <button class="btn my-4 btn-block update_btn" type="button">Update</button>
+	                        <input type="hidden" id="hidUpdateID" name="hidUpdateID" value="">
 	
 	                    </form>
 	                </div>

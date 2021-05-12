@@ -72,7 +72,8 @@
 	                        <!-- Confirm Password -->
 	                        <input type="password" id="signConfermPw" class="form-control mb-3" placeholder="Confirm Password" name="signConfermPw">
 	                            
-	                        <button class="btn my-4 btn-block sign_UpIn_btn" type="submit">Sign Up</button>
+	                        <button id="btnSignUp" name="btnSignUp" class="btn my-4 btn-block sign_UpIn_btn" type="button">Sign Up</button>
+							<input type="hidden" id="hidSignUpID" name="hidSignUpID" value="">
 	
 	                    </form>
 	                </div>
