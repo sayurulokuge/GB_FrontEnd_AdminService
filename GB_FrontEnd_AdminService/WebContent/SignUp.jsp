@@ -24,6 +24,7 @@
     <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="Components/Admin.js"></script>
     
 </head>
 <body>
@@ -34,22 +35,10 @@
 	            
 	            	<!-- left section of signup page -->
 	                <div class="col-6 signupLeft">    
-	                    <form class="text-center p-3" action="#" method="POST">
+	                    <form id="SignUp" name="SignUp" class="text-center p-3" action="#" method="POST">
 	
 	                        <h1 class="h1 mb-0 d-flex flex-row">Sign up</h1>
-	                        <small class="mt-0 text-muted mb-4">... Join the Community</small>
-	
-	                        <div class="form-row mb-4 mt-3">
-	                        	<div class="col">
-	                                <!-- Account type -->
-	                                <label for="accType"><b>Choose an Account Type:</b></label>
-	                                <select name="accType" id="accType" class="form-control">
-	                                	<option hidden=TRUE>Account Type</option>
-	                                	<option>Innovator</option>
-	                                	<option>Buyer</option>
-	                                </select>
-	                            </div>
-	                        </div>   
+	                        <small class="mt-0 text-muted mb-4">... Join the Community</small>  
 	                         
 	                        <div class="form-row mb-4 mt-3">     
 	                            <div class="col">
@@ -73,7 +62,7 @@
 	                        <input type="password" id="signConfermPw" class="form-control mb-3" placeholder="Confirm Password" name="signConfermPw">
 	                            
 	                        <button id="btnSignUp" name="btnSignUp" class="btn my-4 btn-block sign_UpIn_btn" type="button">Sign Up</button>
-							<input type="hidden" id="hidSignUpID" name="hidSignUpID" value="">
+							<input type="hidden" id="hidInnovatorID" name="hidInnovatorID" value="">
 	
 	                    </form>
 	                </div>
@@ -91,6 +80,9 @@
 	                    	<a href="#" style="color: white;"> SIGN IN</a>                 
 	                   	</div>
 	                </div>
+	                
+	                <div id="alertSuccess" class="alert alert-success"></div>
+					<div id="alertError" class="alert alert-danger"></div>                
 	                
 	            </div>
 	        </div>

@@ -27,6 +27,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
     <script src="Components/Dashboard.js"></script>
+	<script src="Components/Admin.js"></script>
 	
 </head>
 <body>
@@ -126,6 +127,13 @@
                     </div>
                 </nav>
                                 
+                <br>
+				<div id="divAdminGrid">
+ 					<%	
+ 						Admin AdminObj = new Admin(); 
+ 						out.print(AdminObj.readInnovatorAccount()); 
+ 					%>
+				</div>
                 
                 
                 <!-- footer -->

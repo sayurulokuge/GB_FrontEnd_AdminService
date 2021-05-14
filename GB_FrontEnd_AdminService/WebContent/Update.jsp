@@ -24,6 +24,7 @@
     <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="Components/Admin.js"></script>
     
 </head>
 <body>
@@ -61,7 +62,7 @@
 	                        <input type="password" id="editConfermPw" class="form-control mb-3" placeholder="Confirm Password" name="editConfermPw">
 	                            
 	                        <button class="btn my-4 btn-block update_btn" type="button">Update</button>
-	                        <input type="hidden" id="hidUpdateID" name="hidUpdateID" value="">
+	                        <input type="hidden" id="hidInnovatorID" name="hidInnovatorID" value="">
 	
 	                    </form>
 	                </div>
