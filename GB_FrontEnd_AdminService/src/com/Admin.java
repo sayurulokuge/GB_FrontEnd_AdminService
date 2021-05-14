@@ -56,7 +56,7 @@ public class Admin {
 					output += "<td>" + email + "</td>";
 					
 					// buttons
-					output += "<td><input name='btnUpdate' type='button' value='Update' class='btnUpdate btn btn-secondary'><input name='btnRemove' type='button' value='Remove' class='btn btn-danger' data-innID='" + innID + "'></td></tr>"; 
+					output += "<td><input id='btnUpdate' name='btnUpdate' type='button' value='Update' class='btnUpdate btn btn-secondary'><input id='btnRemove' name='btnRemove' type='button' value='Remove' class='btn btn-danger' data-innID='" + innID + "'></td></tr>"; 
 				} 
 	 
 				con.close(); 

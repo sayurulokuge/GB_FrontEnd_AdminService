@@ -35,7 +35,7 @@
 	            
 	            	<!-- left section of signup page -->
 	                <div class="col-6 signupLeft">    
-	                    <form id="SignUp" name="SignUp" class="text-center p-3" action="#" method="POST">
+	                    <form id="Innovator" name="Innovator" class="text-center p-3" action="#" method="POST">
 	
 	                        <h1 class="h1 mb-0 d-flex flex-row">Sign up</h1>
 	                        <small class="mt-0 text-muted mb-4">... Join the Community</small>  

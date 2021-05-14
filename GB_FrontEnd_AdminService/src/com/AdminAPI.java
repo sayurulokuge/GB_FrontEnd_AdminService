@@ -10,7 +10,6 @@ import java.util.HashMap;
 import java.util.Map; 
 import java.util.Scanner;
 
-
 /**
  * Servlet implementation class AdminAPI
  */
@@ -18,6 +17,7 @@ import java.util.Scanner;
 public class AdminAPI extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
+	Admin AdminObj;
     /**
      * @see HttpServlet#HttpServlet()
      */

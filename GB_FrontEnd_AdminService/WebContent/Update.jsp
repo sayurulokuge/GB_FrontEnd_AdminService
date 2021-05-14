@@ -35,7 +35,7 @@
 	            
 	            	<!-- left section of signup page -->
 	                <div class="col-6 updateLeft">    
-	                    <form class="text-center p-3" action="#" method="POST">
+	                    <form id="Innovator" name="Innovator" class="text-center p-3" action="#" method="POST">
 	
 	                        <h1 class="h1 mb-0 d-flex flex-row">Update</h1>
 	                        <small class="mt-0 text-muted mb-4">... Change is Welcome</small><br><br>	                        
@@ -61,7 +61,7 @@
 	                        <!-- Confirm Password -->
 	                        <input type="password" id="editConfermPw" class="form-control mb-3" placeholder="Confirm Password" name="editConfermPw">
 	                            
-	                        <button class="btn my-4 btn-block update_btn" type="button">Update</button>
+	                        <button id="btnUpdate" name="btnUpdate"class="btn my-4 btn-block update_btn" type="button">Update</button>
 	                        <input type="hidden" id="hidInnovatorID" name="hidInnovatorID" value="">
 	
 	                    </form>
